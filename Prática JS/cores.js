@@ -23,7 +23,7 @@ for (let i = 0; i < colorButtons.length; i++){
     colorButtons[i].addEventListener("click", (ev) => {changeBackgroundColor(ev.target.dataset.color)});
 }
 
-
+// padstart, to tostring (hex)
 //JEITO PEBA DE FAZER
 
 // redButton.addEventListener("click", () => changeBackgroundColor("red"));
